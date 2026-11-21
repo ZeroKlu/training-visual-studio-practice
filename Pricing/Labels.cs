@@ -4,6 +4,6 @@ public static class Labels
 {
     public static string PriceLabel(decimal price)
     {
-        return $"Price: {price:C}";
+        return $"Listed price: {price:C2}";
     }
 }
