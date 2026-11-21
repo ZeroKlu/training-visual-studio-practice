@@ -10,3 +10,5 @@ Console.WriteLine($"Total: {total}");
 Console.WriteLine($"Average: {PriceCalculator.Average(prices)}");
 Console.WriteLine($"Highest: {PriceCalculator.MaxPrice(prices)}");
 Console.WriteLine($"Lowest: {PriceCalculator.MinPrice(prices)}");
+
+Console.WriteLine("Test");
