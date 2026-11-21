@@ -1,0 +1,9 @@
+﻿namespace Pricing;
+
+public static class Labels
+{
+    public static string PriceLabel(decimal price)
+    {
+        return $"Price: {price:C}";
+    }
+}
